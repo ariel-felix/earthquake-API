@@ -39,7 +39,7 @@ fig_mapa = px.scatter_geo(
     size_max=14,
     projection='natural earth',
     color_continuous_scale='YlOrRd',
-    template='plotly_dark'  # Estilo escuro para combinar com o Streamlit dark
+    template='plotly_dark'  
 )
 
 fig_mapa.update_layout(
@@ -72,7 +72,7 @@ st.plotly_chart(fig_mapa, use_container_width=True)
 # Tabela top 10
 st.subheader("Top 10 regiones con más terremotos")
 top_locais = df_filtrado['local'].value_counts().reset_index()
-top_locais.columns = ['Local', 'Cantidad']  # em espanhol, se preferir
+top_locais.columns = ['Local', 'Cantidad']  
 st.dataframe(top_locais.head(10))
 
 # Gráfico
