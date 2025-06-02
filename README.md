@@ -63,6 +63,8 @@ requirements.txt : dependencias del proyecto
 
 README.md : documentación del proyecto
 
+terremotos.parquet: archivo con los datos recolectados
+
 
 #### 🛠️ Tecnologías Utilizadas
 
