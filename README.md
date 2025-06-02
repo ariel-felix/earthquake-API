@@ -26,7 +26,7 @@ Figura 1. Mapa interactivo de los terremotos en Streamlit.
 
 * Análisis descriptivo de magnitud, profundidad y frecuencia de los terremotos
 
-* Visualizaciones gráficas (distribución de magnitudes, profundidades, mapas interactivos)
+* Visualizaciones gráficas (distribución de magnitudes, profundidades, mapa)
 
 * Dashboard interactivo para exploración
 
@@ -48,13 +48,21 @@ Figura 1. Mapa interactivo de los terremotos en Streamlit.
 
 * Las regiones insulares en los bordes de las placas tectónicas concentran la mayor actividad sísmica.
 
-* Se observan picos de actividad en ciertos meses y horas, posiblemente asociados a zonas tectónicas activas.
+* Se observan picos de actividad en ciertos meses y horas, posiblemente asociados a zonas tectónicas activas. Aunque no siguen un patrón fijo, es interesante notar concentraciones de eventos en determinados momentos —posiblemente vinculados a zonas tectónicas activas.
 
-  
+#### 📁 Estructura del Repositorio
+earthquake-project.ipynb/ : notebook de Jupyter con análisis exploratorio
+
+app.py : código del dashboard Streamlit
+
+requirements.txt : dependencias del proyecto
+
+README.md : documentación del proyecto
+
 
 #### 🛠️ Tecnologías Utilizadas
 
-Python: Utilizando las siguientes librerías - requests, pandas, numpy, matplotlib, seaborn, plotly, streamlit
+Python: Utilizando las siguientes librerías - requests, pandas,cartopy, matplotlib, seaborn, plotly, streamlit
 
 API USGS Earthquake Catalog: 
 
