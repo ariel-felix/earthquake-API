@@ -30,6 +30,10 @@ Figura 1. Mapa interactivo de los terremotos en Streamlit.
 
 * Dashboard interactivo para exploración
 
+* 🔗 Acesse o App Interativo
+
+🌍 [Clique aqui para acessar o dashboard no Streamlit](https://earthquake-api-project.streamlit.app/)
+
 
 
 #### ⚠️ Resultados principales
